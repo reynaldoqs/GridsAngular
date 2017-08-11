@@ -1,0 +1,6 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<app-modal *ngIf="modal" (close)="onClose()" [item]="selectedItem"></app-modal>
+<h1>Main cointainer</h1>
+<div class="box-container">
+    <app-box [items]="items" (select)="onSelect($event)"></app-box>
+</div>

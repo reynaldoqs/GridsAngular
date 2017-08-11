@@ -1,0 +1,28 @@
+ul{
+    width: 100%;
+    background-color: #f4f7f6;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    width: 100%;
+    display: flex;
+    padding: 17px;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 556px){
+    li{
+        width: calc(100%/2);
+    }
+}
+@media screen and (min-width: 1024px){
+    li{
+        width: calc(100%/3);
+    }
+}
+@media screen and (min-width: 1400px){
+    li{
+        width: calc(100%/4);
+    }
+}

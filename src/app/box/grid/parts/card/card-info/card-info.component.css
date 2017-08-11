@@ -1,0 +1,56 @@
+:host{
+    display: flex;
+    width: 100%;
+    height: 184px;
+}
+.container{
+   padding: 20px;
+   position: relative;
+   width: 100%;
+}
+.row{
+    height: 20px;
+    margin-bottom: 12px;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: "Roboto",serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #202121;
+}
+.row h3{
+        margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.strong-1{
+    font-weight: 500;
+    color:  #b71c1c;
+}
+.strong-2{
+    font-weight: 500;
+    color: #000;
+}
+.footer > ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0 0 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+.footer > ul > li{
+    width: 32px;
+    height: 32px;
+    margin-left: 7px;
+}
+.footer-item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
